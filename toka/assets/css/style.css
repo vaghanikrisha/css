@@ -1,0 +1,174 @@
+.bg-dark{
+    background-color:  #020710 !important;
+}
+
+.bg-drop {
+    background-color: #212529;
+}
+
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-56 {
+    font-size: 56px;
+}
+
+.fs-128 {
+    font-size: 128px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-style: 14px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-46 {
+    font-size: 46px;
+}
+.fs-76 {
+    font-size: 76px;
+}
+
+.text-black-50{
+    color: #a4a9ac !important   ;
+}
+
+
+.inter {
+    font-family: 'Inter';
+}
+a {
+    text-decoration: none;
+}
+/* header start  */
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #36bb91 !important;
+}
+
+.dropdown-sec {
+    width: 200px;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+
+}
+
+.dropdown-sec {
+    position: absolute;
+    content: "";
+    top: 0;
+    z-index: 99;
+
+}
+
+.nav-item:hover .dropdown-sec {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-sec ul li a:hover {
+   
+    color: #36bb91!important;
+}
+
+.nav-item button,
+.nav-item button a {
+    transition: 0.3s linear;
+    ;
+}
+
+.nav-item button:hover {
+    background-color: #fff !important;
+
+}
+
+.nav-item button:hover a {
+    color: #11191c !important;
+}
+
+
+
+/* discover start  */
+
+.text-gradient{
+    background-image: linear-gradient( 90deg, #E84AD2 0%, #4B9BE0 100% );
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+
+}
+.btn-gra{
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    fill: #020710;
+    color: #020710;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #E84AD2 0%, #4B9BE0 100%);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 4px 20px 0px rgba(148, 226.99999999999997, 255, 0.26);
+    padding: 15px 45px 15px 45px;
+    transition: 0.3s ease-in;
+}
+.btn-gra:hover{
+    transform: translateY(-10px);
+}
+.rotate-img {
+    animation: rotate infinite 5s linear;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* discover end  */

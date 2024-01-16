@@ -1,0 +1,21 @@
+.box{
+	width:200px;
+	height:200px;
+	background-color:skyblue
+}
+.box1{
+	width:400px;
+	height:200px;
+	background-color:black
+}
+.box2{
+	width:500px;
+	height:200px;
+	background-color:grey
+}
+#box{
+	width:600px;
+	height:200px;
+	background-color:black
+}
+

@@ -1,0 +1,21 @@
+.box{
+	max-width:1140px;
+	background-color:teal;
+	color:black;
+	padding:10px;
+	border-radius:10px;
+	margin:1px;
+}
+
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+.box1{
+	max-width:1140px;
+	background-color:teal;
+	color:black;
+	padding:10px;
+	border-radius:10px;
+	margin:1px;
+}

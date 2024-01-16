@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.conntainer{
+	max-width:1140px;
+	margin:0 auto;
+}
+.container button{
+	width:150px;
+	height:45px;
+	background-color:black;
+	color:white;
+	position:relative;
+	z-index:1;
+}
+.container button::after{
+	position:absolute;
+	content:'';
+	width:0%;
+	height:100%;
+	background-color:lightsalmon;
+	left:0;
+	top:0;
+	transition:1s;
+	z-index:-1;
+
+}
+.container button:hover::after{
+	width:100%;
+}
+
+
+
+.container button:nth-child(2){
+	width:150px;
+	height:45px;
+	background-color:black;
+	color:white;
+	position:relative;
+	z-index:1;
+}
+.container button:nth-child(2):hover::before{
+	position :absolute;
+	content:'';
+	width:50%;
+	height:100%;
+	background-color:lightsalmon;
+	right:0;
+	bottom:0;
+	transition:1s;
+	z-index:-1;
+	transform:rotate(-180deg);
+}
+.container button:nth-child(2):hover::before{
+	width:100%;
+}
+.container button:nth-child(2):hover::after{
+	position :absolute;
+	content:'';
+	width:50%;
+	height:100%;
+	background-color:indianred;
+	left:0;
+	top:0;
+	transition:1s;
+	z-index:-1;
+	transform:rotate(180deg);
+}
+.container button:nth-child(2):hover::after{
+	width:100%;
+}
+
+
+
+.container button:nth-child(3){
+	width:150px;
+	height:45px;
+	background-color:black;
+	color:white;
+	position:relative;
+	z-index:1;
+	transition-delay:0.5s;
+}
+.container button:nth-child(3):hover::before{
+	position :absolute;
+	content:'';
+	width:50%;
+	height:90%;
+	background-color:lightsalmon;
+	left:0;
+	top:10%;
+	transition:1s;
+	transition-delay:0s;
+	z-index:-1;
+}
+.container button:nth-child(3):hover::before{
+	width:100%;
+}
+.container button:nth-child(3):hover::after{
+	position :absolute;
+	content:'';
+	width:50%;
+	height:90%;
+	background-color:indianred;
+	left:0;
+	bottom:10%;
+	transition:1s;
+	transition-delay:0.35s;
+	z-index:-1;
+
+}
+.container button:nth-child(3):hover::after{
+	width:100%;
+}
+
+
+
+.container button:nth-child(4){
+	width:150px;
+	height:45px;
+	background-color:black;
+	color:white;
+	position:relative;
+	z-index:1;
+	border:0;
+}
+.container button:nth-child(4):hover::before{
+	position :absolute;
+	content:'';
+	width:100%;
+	height:100%;
+	background-color:lightsalmon;
+	left:0;
+	top:0;
+	transition:1s;
+	z-index:-1;
+	transform:skew(30deg);
+	border:50px;
+}
+.container button:nth-child(4):hover::before{
+	width:100%;
+}
+.container button:nth-child(4):hover::after{
+	position :absolute;
+	content:'';
+	width:100%;
+	height:90%;
+	background-color:indianred;
+	left:0;
+	top:0;
+	transition:1s;
+	z-index:-1;
+	transform:skew(-30deg);
+}
+.container button:nth-child(4):hover::after{
+	width:100%;
+}
