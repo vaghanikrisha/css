@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+.after-before {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin: 50px 0;
+}
+
+h2 {
+    color: white;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 5px;
+    bottom: 0;
+    background-color: black;
+
+
+}
+
+
+
+
+
+.style {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    margin: 50px 0;
+
+}
+
+span::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    bottom: 5%;
+    left: 0;
+    background-color: black;
+
+
+}
+
+h6::after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    bottom: 9%;
+    left: 0;
+    background-color: black;
+
+}
+
+
+
+.css-tricks {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.692);
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-color: white;
+    top: 5%;
+    right: 37%;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    bottom: 0%;
+    right: 37%;
+    background-color: white;
+
+}
+
+
+
+
+
+.heading-6 {
+    width: 250px;
+    height: 90px;
+    background-color: aliceblue;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+    position: relative;
+
+
+}
+
+p {
+    color: red;
+}
+
+h4 {
+    color: gray;
+}
+
+h4::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    bottom: 5%;
+    left: 65px;
+    top: 55px;
+    background-color: grey;
+
+
+}
+
+h5::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    bottom: 5%;
+    top: 55px;
+    left: 115px;
+    right: 150px;
+    background-color: crimson;
+
+
+}
+
+
+
+
+
+
+
